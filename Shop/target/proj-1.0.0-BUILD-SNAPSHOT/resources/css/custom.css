@@ -1,0 +1,103 @@
+/*============================================================================================*/
+/* Your custom styles below */
+/*============================================================================================*/
+/* Font-Face(배달의 민족 폰트 불러옴) */
+
+/*추가한 부분*/
+.main-menu ul{
+  display:inline-block;
+}
+.toplogin{
+  float:right;
+  position: relative;
+  left:400px;
+}
+.toplogin > li:hover{
+  background-color:#0246c4;
+}
+.topmenu > li:hover{
+  background-color:#0246c4;
+}
+@font-face {
+  font-family: 'BMHANNAPro';
+  src: url('fonts/BMHANNAPro.eot');
+  src: url('fonts/BMHANNAPro.eot?#iefix') format('embedded-opentype'),
+       url('fonts/BMHANNAPro.svg#BMHANNAPro') format('svg'),
+       url('fonts/BMHANNAPro.ttf') format('truetype'),
+       url('fonts/BMHANNAPro.woff') format('woff'),
+       url('fonts/BMHANNAPro.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+.email_btn{
+  background-color:#0000;
+  border-style: none;
+  color:#fff;
+  position:absolute;
+  left: 30px;
+  top:-2px;
+}
+.prepare_title{
+  text-align:center;
+  padding-top: 100px;
+}
+.prepare_title h2 {
+  font-family : BMHANNAPro;
+  font-size: 36px;
+  font-size: 8rem;
+  font-weight: 600;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+}
+.prepare_title p {
+  font-family : BMHANNAPro;
+  font-size: 23px;
+  font-size: 3rem;
+  font-weight: 300;
+  padding: 0 15%;
+  position: relative;
+  z-index: 2;
+}
+.container .profileinfo{
+  padding-top:100px;
+}
+.container .justify-content-center{
+  padding:100px 0px 100px 0px;
+}
+.error_404 p{
+  font-family : BMHANNAPro;
+  font-size:60px;
+  color:#000;
+}
+
+/* 레이어 팝업 */
+/*.pop-layer {
+  display: none;
+  position: absolute;
+  top: 350%;
+  left: 50%;
+  width: 400px;
+  height: auto;
+  background-color: #fff;
+  border: 5px solid #000;
+  z-index: 10;
+  text-align :center;
+  border-radius: 20px;
+}
+.pop-layer .pop-container {
+  padding: 20px 25px;
+}
+
+.pop-layer p.ctxt {
+  color: #666;
+  line-height: 25px;
+}
+
+.pop-layer .btn-r {
+  width: 100%;
+  margin: 10px 0 20px;
+  padding-top: 10px;
+  border-top: 1px solid #DDD;
+  text-align: right;
+} */

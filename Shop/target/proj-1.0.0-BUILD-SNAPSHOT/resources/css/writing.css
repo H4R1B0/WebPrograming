@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+}
+main {
+  height: 700px;
+  display: flex;
+  justify-content: center;
+}
+.writing-box {
+  height: 100%;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 700px;
+}
+.contain {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25%;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+}
+h1 {
+  margin: 0;
+  font-size: 35px;
+}
+.write-back {
+  padding: 100px 0;
+}
+input {
+  width: 100%;
+}
+textarea {
+  margin-top: 3px;
+  padding: 0;
+}
+.body-input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 400px;
+}
+.foot {
+  margin-left: 86%;
+  max-width: 95px;
+}
+button {
+  border-radius: 4px;
+}
+.cancel-button:hover {
+  background-color: #e7e7e9;
+}
+.push-button {
+  background-color: #8a9dca;
+  color: white;
+}
+.push-button:hover {
+  background-color: #7e8cad;
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="web.shop.proj.memberMapper">
+
+	<!-- 회원가입 -->
+	<insert id="register" parameterType="web.shop.proj.dto.MemberDto">
+		INSERT INTO shopdb.member(mem_id, mem_pw, mem_name, mem_email, mem_phonenum)
+		VALUES(#{mem_id}, #{mem_pw}, #{mem_name}, #{mem_email}, #{mem_phonenum})
+	</insert>
+	
+	<!-- 로그인 -->
+	<select id="login" resultType="web.shop.proj.dto.MemberDto">
+		SELECT mem_id, mem_pw 
+		FROM shopdb.member
+		WHERE mem_id = #{mem_id} AND mem_pw = #{mem_pw}   
+	</select>
+	<!-- 아이디 중복 체크 -->
+	<select id="idcheck" parameterType="String" resultType="int">
+		SELECT COUNT(*)
+		FROM shopdb.member
+		WHERE mem_id=#{id}
+	</select>
+</mapper>
