@@ -22,6 +22,8 @@
 ![image](https://user-images.githubusercontent.com/12294460/160358943-5c02ced0-c34f-4a98-8f41-af2f4d7f3a2b.png)
 #### 회원가입
 ![image](https://user-images.githubusercontent.com/12294460/160358974-36c0a24d-dd76-400c-86bb-e5a9dcbe9e80.png)
+#### 게시판
+![image](https://user-images.githubusercontent.com/12294460/166116359-b07a9c01-767e-4a36-842c-ba60869714b1.png)
 #### 장바구니
 ![image](https://user-images.githubusercontent.com/12294460/160359109-f8913843-1362-44f1-8202-fdd782bc5868.png)
 
