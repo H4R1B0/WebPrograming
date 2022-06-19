@@ -82,7 +82,8 @@
 	        if(listLen >  0){
 	            
 	            for(var a=0; a<listLen; a++){
-	                
+			    
+	                var boardrownum     = a+1;
 	                var boardwno        = list[a].wno; 
 	                var boardtitle		= list[a].title; 
 	                var boardcontent	= list[a].content; 
@@ -91,7 +92,7 @@
 	                var boardhit		= list[a].hit; 
 	                
 	                str += "<tr>";
-	                str += "<td>"+ boardwno +"</td>";
+	                str += "<td>"+ boardrownum +"</td>";
 	                str += "<td onclick='javascript:goBoardDetail("+ boardwno +");' style='cursor:Pointer'>"+ boardtitle +"</td>";
 	                str += "<td>"+ boardwriter +"</td>";
 	                str += "<td>"+ boardwdate +"</td>";
