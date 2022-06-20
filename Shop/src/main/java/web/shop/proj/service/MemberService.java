@@ -7,6 +7,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import web.shop.proj.form.MemberForm;
+import web.shop.proj.common.SHA256Util;
 import web.shop.proj.dao.MemberDao;
 import web.shop.proj.dto.MemberDto;
 
@@ -17,13 +19,26 @@ public class MemberService {
 	protected final Logger logger = LoggerFactory.getLogger(this.getClass());
 	
 	/** 회원가입 */
-    public void register(MemberDto memberDto) throws Exception { 
-    	memberDao.register(memberDto);
+    public void register(MemberForm memberForm) throws Exception {
+    	String salt = SHA256Util.generateSalt();
+    	memberForm.setMem_salt(salt);
+    	
+    	String password = memberForm.getMem_pw();
+    	password = SHA256Util.getEncrypt(password, salt);
+    	
+    	memberForm.setMem_pw(password);
+    	memberDao.register(memberForm);
     }
     
     /** 로그인 */
-    public MemberDto login(MemberDto memberDto) throws Exception { 
-    	return memberDao.login(memberDto);
+    public MemberDto login(MemberForm memberForm) throws Exception {
+    	String salt = memberDao.getSaltId(memberForm.getMem_id());
+    	String password = memberForm.getMem_pw();
+    	
+    	password = SHA256Util.getEncrypt(password, salt);
+    	memberForm.setMem_pw(password);
+    	
+    	return memberDao.login(memberForm);
     }
     
     /** 아이디 중복확인 */
