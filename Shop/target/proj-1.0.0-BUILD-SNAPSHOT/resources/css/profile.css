@@ -1,0 +1,135 @@
+body{
+    margin:0;
+    box-sizing:border-box;
+    background-color: rgb(222, 222, 224);
+}
+li{
+    list-style: none;
+    font-style: normal;
+    /*font-weight: bold;*/
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.navheader{
+    display:flex;
+    align-items: center;
+    background-color:#004dda;
+    justify-content: space-between;
+    font-size:13px;
+    padding: 0 13px;
+    height:100%;
+}
+/*logo*/
+.header_logo{
+    font-size: 24px;
+    position: relative;
+    left:25%;
+}
+.header_logo > a{
+    color:#fff;
+}
+/*menu*/
+.header_menu{
+    display:flex;
+    padding-left:0;
+    position: relative;
+    margin:0;
+}
+.header_menu  li{
+    padding: 30px 18px 25px;
+}
+.header_menu >li > a{
+    color:#fff;
+}
+.header_menu > li:hover{
+    background-color:#0246c4;
+    cursor: pointer;
+}
+.submenu ul{
+    display:none;
+    position: absolute;
+    padding-left: 0;
+    min-width:50px;
+}
+.submenu > li a{
+    color:#fff;
+}
+.submenu:hover .dropdown{
+    background-color: #fff;;
+    display:block;
+}
+
+.dropdown :hover a{
+    background-color: #0044c2;
+    background-color: rgba(0, 77, 218, 0.05);
+}
+
+/*login*/
+.header_login{
+    display:flex;
+    padding-left:0;
+    position: relative;
+    right:15%;
+    margin:0;
+}
+.header_login li{
+    padding:30px 18px 25px;
+}
+.header_login a{
+    color:#fff;
+}
+.header_login > li:hover{
+    background-color:#0246c4;
+    cursor: pointer;
+}
+/* .navmain{
+    top:220px;    
+    position: relative;
+    display:block;    
+    justify-content: space-between;
+    background-color: #f8f8f8;
+    padding:30px;
+}
+.navmain > div{
+    padding:8px;
+} */
+/*profileinfo*/
+.profileinfo li{
+    font-size: 27px;
+    position: relative;
+    left:25%;    
+    margin-right: 0;
+    width:120px;
+}
+/*profilemnu*/
+.profilemenu li{
+    font-size:17px;
+    position: relative;
+    left:32%;
+    padding: 5px;   
+    margin-right:0;
+    width:120px;
+}
+/*profilebutton*/
+.profilebutton{
+    display:flex;
+}
+.profilebutton button{
+    border:none;
+    border-radius: 3px;
+    font-size:14px;
+    font-weight:500;
+    background-color:#004dda;
+    color:#fff;
+    outline:none;
+    padding:10px 20px;
+}
+.profilebutton li{
+    position: relative;
+    left:25%;
+}
+.profilebutton button:hover{
+    background-color: #FFC107;
+}
