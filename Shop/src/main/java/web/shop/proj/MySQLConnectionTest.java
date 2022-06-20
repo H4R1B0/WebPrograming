@@ -16,8 +16,8 @@ public class MySQLConnectionTest {
  
     static final String DRIVER = "com.mysql.cj.jdbc.Driver";
     static final String URL = "jdbc:mysql://127.0.0.1:3306/shopdb?characterEncoding=utf8&serverTimezone=UTC";
-    static final String USERNAME = "admin";
-    static final String PASSWORD = "password"; //private password change
+    static final String USERNAME = "Auser";
+    static final String PASSWORD = "Koreapark25!";
  
     @Test
     public void getMySQLConnectionTest() {
