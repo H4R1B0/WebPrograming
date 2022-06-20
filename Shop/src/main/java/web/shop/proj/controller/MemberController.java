@@ -20,6 +20,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import web.shop.proj.dao.MemberDao;
 import web.shop.proj.dto.MemberDto;
+import web.shop.proj.form.MemberForm;
 import web.shop.proj.service.MemberService;
 
 @Controller
@@ -33,16 +34,15 @@ public class MemberController {
 	/** 회원가입 get */
 	@RequestMapping(value = "/register", method = RequestMethod.GET)
 	public void getRegister() throws Exception {
-		logger.info("get register");
-		
+		logger.info("ssss get register");
+		System.out.println("aaaa");
 	}
 	
 	/** 회원가입 post */
 	@RequestMapping(value = "/register", method = RequestMethod.POST)
-	public String postRegister(MemberDto memberDto) throws Exception {
-		logger.info("post register");
-		
-		memberService.register(memberDto);
+	public String postRegister(MemberForm memberForm) throws Exception {
+		logger.info("ssss post register");
+		memberService.register(memberForm);
 		
 		return "redirect:/member/login"; //회원가입 후에 로그인 화면으로 이동
 	}
@@ -54,11 +54,11 @@ public class MemberController {
 		
 	}
 	@RequestMapping(value = "/login", method = RequestMethod.POST)
-	public String login(MemberDto memberDto, HttpServletRequest req, RedirectAttributes rttr) throws Exception{
+	public String login(MemberForm memberForm, HttpServletRequest req, RedirectAttributes rttr) throws Exception{
 		logger.info("post login");
 		
 		HttpSession session = req.getSession();
-		MemberDto login = memberService.login(memberDto);
+		MemberDto login = memberService.login(memberForm);
 		
 		if(login == null) {
 			session.setAttribute("member", null);
