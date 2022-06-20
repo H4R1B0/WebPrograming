@@ -34,3 +34,4 @@
 ##### [이클립스에서 톰캣 충돌시 오류 해결](https://mjn5027.tistory.com/15)
 ##### [홈페이지에 사용할 이미지 출처](http://dshop.dietshin.com/)
 ##### [로고 이미지 출처](https://post-phinf.pstatic.net/MjAxOTA4MDFfMTM1/MDAxNTY0NjI2NDEzOTk1.-P-tRuHS-NVuUwIj7FEYrJyPrOJwXjOpUNGNlXlER4kg.oubaLoRGUl5QA3wSwu6c4rrr4-y_iDzUUz6nahElO7wg.PNG/es_574c0bc179a4420aa9f71e774c1b0d2f.png?type=w1200)
+##### [비밀번호 암호화 참고](https://minwoohi.tistory.com/96)
