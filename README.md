@@ -23,7 +23,7 @@
 #### 회원가입
 ![image](https://user-images.githubusercontent.com/12294460/160358974-36c0a24d-dd76-400c-86bb-e5a9dcbe9e80.png)
 #### 게시판
-![image](https://user-images.githubusercontent.com/12294460/166116359-b07a9c01-767e-4a36-842c-ba60869714b1.png)
+![image](https://user-images.githubusercontent.com/12294460/175229839-7c642c7c-a75b-49d3-ac0b-a253b55e3f1e.png)
 #### 장바구니
 ![image](https://user-images.githubusercontent.com/12294460/160359109-f8913843-1362-44f1-8202-fdd782bc5868.png)
 
