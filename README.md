@@ -7,7 +7,7 @@
 ### 개발 환경
 #### 이클립스, Spring MVC, MySQL
 ![image](https://user-images.githubusercontent.com/12294460/160415757-7e09fa90-6a78-4ebb-86e9-28fa434afaea.png)
-![image](https://user-images.githubusercontent.com/12294460/160416351-136945f0-e064-4f78-b267-7bc7240cfb90.png)
+![image](https://user-images.githubusercontent.com/12294460/175229186-6cb453db-4923-4a73-8be8-37208d0b2a02.png)
 
 ### 실행 화면
 #### 메인
