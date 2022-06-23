@@ -6,8 +6,14 @@
 #### 현 코로나 상황과 관련해 끼니를 집에서 해결하고 싶은 소비자들이 도시락을 배달받을 수 있도록 함으로써 소비자들에게 안전성, 편의성을 제공한다.
 ### 개발 환경
 #### 이클립스, Spring MVC, MySQL
+### 주요 소스코드
+#### 회원가입 - [회원가입](https://github.com/H4R1B0/WebPrograming/blob/main/Shop/src/main/webapp/WEB-INF/views/member/register.jsp)
+#### 게시판 - [목록 불러오기](https://github.com/H4R1B0/WebPrograming/blob/main/Shop/src/main/webapp/WEB-INF/views/board/boardList.jsp) [내용 조회](https://github.com/H4R1B0/WebPrograming/blob/main/Shop/src/main/webapp/WEB-INF/views/board/boardDetail.jsp) [게시글 수정](https://github.com/H4R1B0/WebPrograming/blob/main/Shop/src/main/webapp/WEB-INF/views/board/boardUpdate.jsp)
+#### 모델 및 컨트롤러 - [모델 및 컨트롤러](https://github.com/H4R1B0/WebPrograming/tree/main/Shop/src/main/java/web/shop/proj)
 ![image](https://user-images.githubusercontent.com/12294460/160415757-7e09fa90-6a78-4ebb-86e9-28fa434afaea.png)
 ![image](https://user-images.githubusercontent.com/12294460/175229186-6cb453db-4923-4a73-8be8-37208d0b2a02.png)
+
+
 
 ### 실행 화면
 #### 메인
